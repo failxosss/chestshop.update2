@@ -226,7 +226,7 @@ public class ShopListener implements Listener {
             lore.add(ChatColor.YELLOW + "Shift+klik pro prodej cele stacky");
         } else {
             if (stock >= 0) {
-                lore.add(ChatColor.GRAY + ChatColor.WHITE + "Sklad: " + stock + " ks");
+                lore.add(String.valueOf(ChatColor.GRAY) + ChatColor.WHITE + "Sklad: " + stock + " ks");
             }
             lore.add(ChatColor.YELLOW + "Klikni pro koupi 1 ks");
             lore.add(ChatColor.YELLOW + "Shift+klik pro koupi cele stacky");
